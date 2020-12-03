@@ -1,0 +1,7 @@
+type User {
+  _id: String!
+  email: String!
+  fullname: String!
+  username: String!
+  loginSecret: Int!
+}

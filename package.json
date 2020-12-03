@@ -1,0 +1,28 @@
+{
+  "name": "matching-back",
+  "version": "1.0.0",
+  "repository": "https://github.com/ksbohyun/matching-back.git",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/preset-env": "^7.12.7",
+    "dotenv": "^8.2.0",
+    "graphql-tools": "^7.0.2",
+    "graphql-yoga": "^1.18.3",
+    "jsonwebtoken": "^8.5.1",
+    "merge-graphql-schemas": "^1.7.8",
+    "mongoose": "^5.11.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.16",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
