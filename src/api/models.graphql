@@ -1,7 +1,24 @@
 type User {
   _id: String!
+  avatar: String
   email: String!
   fullname: String!
   username: String!
   loginSecret: Int!
+  company: String
+  companyterm: String
+  position: String
+  academy: String
+  major: String
+  graduation: String
+  license: String
+  pname: String
+  contents: String
+  link: String
+  files: String
+  awards: String
+  lname: String
+  bio: String
+  createdAt: String
+  updatedAt: String
 }
